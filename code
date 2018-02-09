@@ -126,10 +126,10 @@ def get_google_results(address, api_key='XXXXXXX', return_full_response=False):
 #------------------ PROCESSING LOOP -----------------------------
 
 # Ensure, before we start, that the API key is ok/valid, and internet access is ok
-#test_result = get_google_results("40.6834877, -73.9993961", API_KEY, RETURN_FULL_RESULTS)
-#if (test_result['status'] != 'OK') or (test_result['formatted_address'] != '215 Union St, Brooklyn, NY 11231, USA'):
-#    logger.warning("There was an error when testing the Google Geocoder.")
-#    raise ConnectionError('Problem with test results from Google Geocode - check your API key and internet connection.')
+test_result = get_google_results("40.752726, -73.977229", API_KEY, RETURN_FULL_RESULTS)
+if (test_result['status'] != 'OK') or (test_result['formatted_address'] != '89 E 42nd St, New York, NY 10017, USA'):
+    logger.warning("There was an error when testing the Google Geocoder.")
+    raise ConnectionError('Problem with test results from Google Geocode - check your API key and internet connection.')
 
 # Create a list to hold results
 results = []
