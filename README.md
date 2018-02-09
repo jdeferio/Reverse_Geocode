@@ -10,5 +10,5 @@ Addresses can be reverse-geocoded for free at a rate of 2500 addresses per day, 
 
 Data input and output is processed from CSV files.
 
-Please see the original post and full blog post at www.shanelynn.ie/
+Please see the original code and full blog post at www.shanelynn.ie/
 Otherwise, visit shanealynn/python_batch_geocode on GitHub
