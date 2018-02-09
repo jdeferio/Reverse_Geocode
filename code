@@ -77,7 +77,7 @@ def get_google_results(address, api_key='XXXXXXX', return_full_response=False):
                     is useful if you'd like additional location details for storage or parsing later.
     """
     
-    Set up your REVERSE-Geocoding url
+    # Set up your REVERSE-Geocoding url
     geocode_url = "https://maps.googleapis.com/maps/api/geocode/json?latlng={}".format(address)
     if api_key is not None:
        geocode_url = geocode_url + "&key={}".format(api_key)
