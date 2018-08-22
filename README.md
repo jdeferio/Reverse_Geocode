@@ -12,4 +12,4 @@ Data input and output is processed from CSV files.
 
 Please see the original code and full blog post at www.shanelynn.ie/
 
-Otherwise, visit shanealynn/python_batch_geocode on GitHub
+Otherwise, visit http://github.com/shanealynn/python_batch_geocode on GitHub
